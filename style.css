@@ -1,0 +1,317 @@
+/** @format */
+
+* {
+	padding: 0;
+	margin: 0;
+	font-family: "Raleway";
+	font-size: 14px;
+}
+body {
+	background-image: url("./images/bg-mobile.svg");
+	background-size: cover;
+}
+
+.background {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.container {
+	margin-top: 150px;
+}
+
+.gap {
+	height: 20px;
+}
+
+.title {
+	width: 250px;
+	height: 150px;
+	background-color: hsl(228, 45%, 26%);
+	border-radius: 10px;
+	border-top-right-radius: 65px;
+	padding-right: 25px;
+}
+.Logo {
+	padding: 30px 0 15px 35px;
+}
+
+.img-logo {
+	width: 45%;
+	height: auto;
+}
+
+.icons {
+	display: flex;
+	margin: 0 0 0 35px;
+}
+
+.doc {
+	padding-right: 20px;
+}
+.folder {
+	padding-right: 20px;
+}
+
+.doc img {
+	padding: 10px;
+	background-color: hsl(208, 44%, 13%);
+	border-radius: 8px;
+}
+
+.folder img {
+	padding: 12px 10px 12px 10px;
+	background-color: hsl(208, 44%, 13%);
+	border-radius: 8px;
+	line-height: 50px;
+}
+
+.upload img {
+	padding: 14px 10px 14px 10px;
+	background-color: hsl(208, 44%, 13%);
+	border-radius: 8px;
+	line-height: 50px;
+}
+
+.data {
+	width: 275px;
+	height: 145px;
+	background-color: hsl(228, 45%, 26%);
+	border-radius: 10px;
+}
+
+.header h1 {
+	padding: 20px 0 10px 0;
+	font-family: "Raleway";
+
+	font-weight: 5;
+	color: #ffffff;
+	text-align: center;
+}
+
+.header h1 span {
+	font-weight: bold;
+}
+
+.bar {
+	width: 225px;
+	height: 20px;
+	margin: 0 auto;
+	border-radius: 10px;
+	background-color: hsl(229, 57%, 11%);
+	border: 2px solid hsl(229, 57%, 11%);
+}
+
+.percent {
+	width: 180px;
+	height: 19px;
+	border-radius: 10px;
+	background-image: linear-gradient(
+		90deg,
+		hsl(6, 100%, 80%),
+		rgb(238, 103, 170)
+	);
+}
+
+.point {
+	margin: 0 0 0 160px;
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	background-color: white;
+	margin-top: 2px;
+	position: absolute;
+}
+
+.numbers {
+	margin-top: 5px;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.number1 {
+	color: white;
+	padding-right: 135px;
+}
+
+.number2 {
+	color: white;
+	padding-left: 30px;
+}
+.usage {
+	margin: 50px auto 0 auto;
+	text-align: center;
+	width: 150px;
+	height: 50px;
+	border-radius: 10px;
+	background-color: white;
+
+	line-height: 50px;
+}
+
+.usage p span {
+	padding-right: 5px;
+	font-size: 2em;
+	font-weight: 2000;
+}
+
+@media (min-width: 720px) {
+	.background {
+		height: 100vh;
+		background-image: url("./images/bg-desktop.svg");
+		background-size: 100% 50%;
+		background-position: bottom;
+		background-repeat: no-repeat;
+		background-color: hsl(228, 56%, 26%);
+	}
+
+	.container {
+		margin-top: 0;
+		display: flex;
+	}
+	.gap {
+		width: 20px;
+	}
+
+	.title {
+		width: 300px;
+		height: 200px;
+		background-color: hsl(228, 45%, 30%);
+		border-radius: 10px;
+		border-top-right-radius: 65px;
+	}
+	.Logo {
+		padding: 30px 0 15px 35px;
+	}
+
+	.img-logo {
+		width: 45%;
+		height: auto;
+	}
+
+	.icons {
+		display: flex;
+		margin: 0 0 0 35px;
+	}
+
+	.doc {
+		padding-right: 20px;
+	}
+	.folder {
+		padding-right: 20px;
+	}
+
+	.doc img {
+		padding: 10px;
+		background-color: hsl(208, 44%, 13%);
+		border-radius: 8px;
+	}
+
+	.folder img {
+		padding: 12px 10px 12px 10px;
+		background-color: hsl(208, 44%, 13%);
+		border-radius: 8px;
+		line-height: 50px;
+	}
+
+	.upload img {
+		padding: 14px 10px 14px 10px;
+		background-color: hsl(208, 44%, 13%);
+		border-radius: 8px;
+		line-height: 50px;
+	}
+
+	.data {
+		margin-top: 40px;
+		width: 500px;
+		height: 125px;
+		background-color: hsl(228, 45%, 30%);
+		border-radius: 10px;
+	}
+
+	.header {
+		margin-right: 223px;
+	}
+
+	.header h1 {
+		padding: 20px 0 10px 0;
+		font-family: "Raleway";
+
+		font-weight: 5;
+		color: #ffffff;
+		text-align: center;
+	}
+
+	.header h1 span {
+		font-weight: bold;
+	}
+
+	.bar {
+		width: 455px;
+		height: 20px;
+		margin: 0 auto;
+		border-radius: 10px;
+		background-color: hsl(229, 57%, 11%);
+		border: 2px solid hsl(229, 57%, 11%);
+	}
+
+	.percent {
+		width: 330px;
+		height: 19px;
+		border-radius: 10px;
+		background-image: linear-gradient(
+			90deg,
+			hsl(6, 100%, 80%),
+			rgb(238, 103, 170)
+		);
+	}
+
+	.point {
+		margin: 0 0 0 310px;
+		width: 15px;
+		height: 15px;
+		border-radius: 50%;
+		background-color: white;
+		margin-top: 2px;
+		position: absolute;
+	}
+
+	.numbers {
+		margin-top: 5px;
+		display: flex;
+		justify-content: space-evenly;
+	}
+
+	.number1 {
+		color: white;
+		padding-right: 325px;
+	}
+
+	.number2 {
+		color: white;
+		padding-left: 5px;
+	}
+	.usage {
+		left: unset;
+		transform: unset;
+		position: absolute;
+		right: 300px;
+		top: 165px;
+		border-bottom-right-radius: 0;
+	}
+
+	.usage p span {
+		padding-left: 0px;
+		font-weight: bold;
+	}
+
+	.usage::after {
+		content: "";
+		position: absolute;
+		top: 100%;
+		right: 0;
+		border-left: 20px solid transparent;
+		border-top: 20px solid #fff;
+	}
+}
